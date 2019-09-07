@@ -40,6 +40,7 @@
 	width:35px;
 }
 
+
 .body-text {
 	font-size:20px;
 }
@@ -49,11 +50,26 @@
 	font-size:24px;
 }
 
-li {
+.padded-element {
 	padding:10px;
 	font-size:20px;
 }
 
 .bold {
 	font-weight:bold;
+}
+
+.language-level {
+	font-size:28px;
+	padding-left:1em;
+	top:-15px;
+	position:relative;
+}
+
+
+.language-logo {
+	height: 35px;
+	width:60px;
+	border-radius:5px;
+	margin:10px;
 }
