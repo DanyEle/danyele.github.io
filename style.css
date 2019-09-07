@@ -3,34 +3,30 @@
 }
 
 /* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
+
+
+.row {
+  display: flex;
 }
+
+.column {
+  padding: 10px;
+}
+
 
 .left {
   width: 25%;
-  min-width: 244px;
+  min-width:250px;
 }
 
 .right {
   width: 75%;
-  padding-right:150px;
-}
-
-@media only screen and (max-width: 600px) {
-  .right {
-  padding-right: 10px;
-  padding-left: 20px;
-  }
+  min-width:400px;
 }
 
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 #personal-picture {
 	margin-top: 100px;
