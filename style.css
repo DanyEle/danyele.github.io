@@ -40,6 +40,11 @@
 	width:35px;
 }
 
+.code-logo-page {
+	height:50px;
+	width:50px;
+}
+
 
 .body-text {
 	font-size:20px;
@@ -95,6 +100,11 @@
 .project-image{
 	height:190px;
 	width:390px;
+}
+
+.project-image-square{
+	height:190px;
+	width:190px;
 }
 
 .project-text {
