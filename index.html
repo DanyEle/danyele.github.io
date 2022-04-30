@@ -3,15 +3,36 @@
 
 	<head>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158181621-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158181621-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-158181621-1');
-	</script>
+		gtag('config', 'UA-158181621-1');
+		</script>
+		
+		<!-- Tailwind CSS-->
+		<!--<script src="https://cdn.tailwindcss.com"></script> !-->
+
+		<link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.4/dist/flowbite.min.css" />
+
+		<script type="text/javascript" src="tailwind.config.js"></script>
+
+
+
+		<script>
+			tailwind.config = {
+			  theme: {
+				extend: {
+				  colors: {
+					clifford: '#da373d',
+				  }
+				}
+			  }
+			}
+		  </script>
 
 
 		<meta charset="UTF-8" />
@@ -39,22 +60,104 @@
 	  <div class="column left">
 	  	<center>
 
+
 	    	<img id="personal-picture" alt="Personal Picture" src="imgs/personal_picture_2017_square.png"/>
 
-	    	<p style="font-size: 25px"> Daniele Gadler </p>
+	    	<h1 class="text-3xl font-bold" style="font-size: 25px"> Daniele Gadler </h1>
 
-	    	<p style="font-size:15px; margin-top: -15px;"> daniele.gadler at yahoo.it </p>
+	    	<h2 style="font-size:15px; margin-top: -8px;"> daniele.gadler at yahoo.it </h2>
 
-    		<a  title="My Facebook Profile" style="padding: 3px;" href="https://www.facebook.com/daniele.gadler"><img class="social-logo-page" src="imgs/fb_icon.png"></a>
-    		<a  title="My LinkedIN Profile" style="padding: 3px;" href="https://www.linkedin.com/in/daniele-gadler"><img class="social-logo-page" src="imgs/linkedin_icon.png"></a>
-    		<a  title="My Github Profile" style="padding: 3px;" href="https://www.github.com/DanyEle"><img class="social-logo-page" src="imgs/github_icon.png"></a>
-    		<a  title="My Twitter Profile" style="padding: 4px;" href="https://twitter.com/DanieleGadler"><img class="social-logo-page" src="imgs/twitter_icon.png"></a>
-    		<a  title="My Xing Profile" style="padding: 4px;" href="https://www.xing.com/profile/Daniele_Gadler/"><img class="social-logo-page" src="imgs/xing_icon.png"></a>	
-			<a  title="My Google Scholar Profile" style="padding: 4px;" href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img class="social-logo-page" src="imgs/google_scholar_icon.png"></a>	
+			<div class="inline-flex rounded-md shadow-sm" role="group">
 
-			
+
+				<a  title="My Facebook Profile" style="padding: 3px;" href="https://www.facebook.com/daniele.gadler"><img class="social-logo-page" src="imgs/fb_icon.png"></a> 
+				<a  title="My LinkedIN Profile" style="padding: 3px;" href="https://www.linkedin.com/in/daniele-gadler"><img class="social-logo-page" src="imgs/linkedin_icon.png"></a>
+				<a  title="My Github Profile" style="padding: 3px;" href="https://www.github.com/DanyEle"><img class="social-logo-page" src="imgs/github_icon.png"></a>
+				<a  title="My Twitter Profile" style="padding: 4px;" href="https://twitter.com/DanieleGadler"><img class="social-logo-page" src="imgs/twitter_icon.png"></a>
+				<a  title="My Xing Profile" style="padding: 4px;" href="https://www.xing.com/profile/Daniele_Gadler/"><img class="social-logo-page" src="imgs/xing_icon.png"></a>	
+				<a  title="My Google Scholar Profile" style="padding: 4px;" href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img class="social-logo-page" src="imgs/google_scholar_icon.png"></a>	
+			</div>
+
     	</br> </br> </br>
 
+		<aside class="w-64" aria-label="Sidebar">
+			<div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
+			   <ul class="space-y-2">
+				  <li>
+					 <a href="#about" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg> !-->
+						💡
+						<span class="flex-1 ml-3 whitespace-nowrap">About</span>
+					 </a>
+				  </li>
+				  <li>
+					 <a href="#education" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<!--<svg class="w-6 h-6 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg> !-->
+						👨‍🎓
+						<span class="flex-1 ml-3 whitespace-nowrap">Education</span>
+					 </a>
+				  </li>
+				  <li>
+					 <a href="#work-experience" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z" clip-rule="evenodd"></path></svg> !-->
+						🚀
+						<span class="flex-1 ml-3 whitespace-nowrap">Work Experience</span>
+					 </a>
+				  </li>
+				  <li>
+					 <a href="#awards-scholarships" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+						<!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+						🏆
+						<span class="flex-1 ml-3 whitespace-nowrap">Awards and Scholarships</span>
+					 </a>
+				  </li>
+				  <li>
+					<a href="#certificates" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   📄
+					   <span class="flex-1 ml-3 whitespace-nowrap">Certificates</span>
+					</a>
+				 </li>
+				 <li>
+					<a href="#publications" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   📝
+					   <span class="flex-1 ml-3 whitespace-nowrap">Publications</span>
+					</a>
+				 </li>
+				 <li>
+					<a href="#talks" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   📢
+					   <span class="flex-1 ml-3 whitespace-nowrap">Talks</span>
+					</a>
+				 </li>
+				 <li>
+					<a href="#languages" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   ㊗️
+					   <span class="flex-1 ml-3 whitespace-nowrap">Languages</span>
+					</a>
+				 </li>
+				 <li>
+					<a href="#projects" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   💻
+					   <span class="flex-1 ml-3 whitespace-nowrap">Projects</span>
+					</a>
+				 </li>
+				 <li>
+					<a href="#lecture-notes" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					   <!--a<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 4a3 3 0 00-3 3v6a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H5zm-1 9v-1h5v2H5a1 1 0 01-1-1zm7 1h4a1 1 0 001-1v-1h-5v2zm0-4h5V8h-5v2zM9 8H4v2h5V8z" clip-rule="evenodd"></path></svg> !-->
+					   💼
+					   <span class="flex-1 ml-3 whitespace-nowrap">Lecture Notes</span>
+					</a>
+				 </li>
+			   </ul>
+			</div>
+		 </aside>
+
+		<!--
     	<div id="menu-elements">
 
     			<a href="#About" class="menu-element">About </a> </br>
@@ -69,6 +172,7 @@
     			<a href="#lecture-notes" class="menu-element">Lecture Notes</a> </br>
 
     	</div>
+		-->
 
 
 
@@ -84,7 +188,7 @@
 	  <div class="column right">
 
 
-	  	<h3 id="About" class="title-body"> 💡~/About </h3>
+	  	<h3 id="about" class="title-body"> 💡~/About </h3>
 
   		<div class="body-text">
 		
@@ -94,10 +198,10 @@
 			</br> </br>
 
 			
-			I am a trilingual Data Scientist with a passion for data management and productionizing machine learning models, and hold a MSc. in Computer Science and Networking (cum laude) from Scuola Superiore Sant’Anna and the University of Pisa (2019). </br> </br> 			
+			I am a trilingual Data scientist (English, German, Italian) with a passion for data management and productionizing machine learning models, and hold a MSc. in Computer Science and Networking (cum laude) from Scuola Superiore Sant’Anna and the University of Pisa - graduation year 2019. </br> </br> 			
 			
 			
-			<b> Data Scientist experience:</b> Starting March 2021, I have been working as a Data Scientist at ONE LOGIC GmbH in Frankfurt am Main, Germany. Before that, I worked at Südtiroler Informatik AG  on modelling and predicting vehicles' traffic trends on the main roads of the Province of Bolzano and developed models to predict COVID insurgence in patients based on their symptons.  </br> </br>
+			<b> Data scientist experience:</b> Starting from March 2021, I have been working as a data scientist at ONE LOGIC GmbH in Frankfurt am Main, Germany. Before that, I worked at Südtiroler Informatik AG  on modelling and predicting vehicles' traffic trends on the main roads of the Province of Bolzano, Italy and developed models to predict COVID insurgence in patients based on their symptons.  </br> </br>
 			
 			<b> Research experience: </b> Previously, at the National Research Institute of Pisa, I worked on research for Recurrent Neural Network quantization in IoT devices. At the Free University of Bolzano, I investigated the usage of Hidden Markov Models for modelling system usage in 
 			complex systems, and at the Technische Universität Kaiserslautern studied techniques to identity Wi-Fi devices in networks based on packets’ electromagnetic fingerprint. </br> </br>
@@ -105,7 +209,7 @@
   		</div>
 
 
-	  	<h3 id="Education" class="title-body"> 👨‍🎓~/Education </h3>
+	  	<h3 id="education" class="title-body"> 👨‍🎓~/Education </h3>
 
 
 	  	<ul>
@@ -117,7 +221,7 @@
 	  	</ul>
 
 
-	  	<h3 id="Work-Experience" class="title-body"> 🚀~/Work Experience </h3>
+	  	<h3 id="work-experience" class="title-body"> 🚀~/Work Experience </h3>
 
 	  	<ul>
 		
@@ -138,8 +242,6 @@
 						<li> Farmers' crop funding automation from satellite images. </li>
 					</ul>
 			</ul>
-	
-
 	  			
 
 
@@ -186,7 +288,7 @@
 
 
 
-	  	<h3 id="Awards" class="title-body"> 🏆~/Awards and scholarships</h3>
+	  	<h3 id="awards" class="title-body"> 🏆~/Awards and Scholarships</h3>
 
 	  	<ul>
 			
@@ -200,7 +302,7 @@
 
 	  	</ul>
 		
-		<h3 id="Habilitations" class="title-body"> 📄~/Habilitations and certificates </h3>
+		<h3 id="certificates" class="title-body"> 📄~/Habilitations and certificates </h3>
 
 		
 		<ul>
@@ -213,7 +315,7 @@
 
 
 
-	  	<h3 id="Publications" class="title-body"> 📝~/Publications  <a href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img width=30 height=30 src="./imgs/google_scholar_icon.png"/> </a> </h3> 
+	  	<h3 id="publications" class="title-body"> 📝~/Publications  <a href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img width=30 height=30 src="./imgs/google_scholar_icon.png"/> </a> </h3> 
 
 	  	<ul>
 			
@@ -227,7 +329,7 @@ Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.
 
 	  	</ul>
 		
-		<h3 id="Talks" class="title-body"> 📢~/Talks   </a> </h3> 
+		<h3 id="talks" class="title-body"> 📢~/Talks   </a> </h3> 
 		
 	  	<ul>
 		
@@ -243,7 +345,7 @@ Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.
 	  	</ul>
 
 
-	  	<h3 id="Languages" class="title-body"> ㊗️~/Languages </h3>
+	  	<h3 id="languages" class="title-body"> ㊗️~/Languages </h3>
 		 <img class="language-logo" src="imgs/italian_logo.png"/> <span class="language-level">  Native </span> </br>
 	  	 <img class="language-logo" src="imgs/english_logo.jpg"/> <span class="language-level">  Proficient - fluent </span> </br>
  	  	 <img class="language-logo" src="imgs/german_logo.png"/> <span class="language-level">  Advanced - fluent</span> </br>
@@ -256,7 +358,7 @@ Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.
 
 
 
-	  	<h3 class="title-body" id="Projects"> 💻 ~/Projects </h3>
+	  	<h3 class="title-body" id="projects"> 💻 ~/Projects </h3>
 		
 		
 		<!--
@@ -644,5 +746,9 @@ Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.
 		<center>
 			<footer> Created by Daniele Gadler &copy 2019 - 2021. </footer>
 		</center>
+
+		<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
+
+
 	</body>
 </html>
