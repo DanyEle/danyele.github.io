@@ -14,8 +14,6 @@
 		</script>
 		
 		<!-- Tailwind CSS-->
-		<!--<script src="https://cdn.tailwindcss.com"></script> !-->
-
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
 		  tailwind.config = {
@@ -61,7 +59,8 @@
 						<picture>
 							<source srcSet="./media/docs-dark@30.77f062b5fd90f0d2cd4752cd9a8649c8.avif" type="image/avif"/>
 							<img src="./media/docs-dark@tinypng.a8984b7fb44a4f8232d04de50220ab31.png" alt="" class="w-[90rem] flex-none max-w-none hidden dark:block"/>
-						</picture>
+						</picture> 
+			
 				</div>
 			</div><!--<div class="sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent"><div class="max-w-8xl mx-auto"><div class="py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0"><div class="relative flex items-center"><a class="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto" href="/"><span class="sr-only"></span> !-->
 	</div>
@@ -95,7 +94,7 @@
 			<div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
 			   <ul class="space-y-2">
 				  <li>
-					 <a href="#about" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+					 <a href="#about" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 a-sidebar-menu-item">
 						<!--<svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg> !-->
 						💡
 						<span class="flex-1 ml-3 whitespace-nowrap">About</span>
@@ -168,42 +167,19 @@
 			</div>
 		 </aside>
 
-		<!--
-    	<div id="menu-elements">
-
-    			<a href="#About" class="menu-element">About </a> </br>
-    			<a href="#Education" class="menu-element">Education </a> </br>
-    			<a href="#Work-Experience" class="menu-element">Work Experience </a> </br>
-    			<a href="#Awards" class="menu-element">Awards and Scholarships </a> </br>
-				<a href="#Habilitations" class="menu-element">Habilitations and Certificates </a> </br>
-    			<a href="#Publications" class="menu-element">Publications </a> </br>
-    			<a href="#Talks" class="menu-element">Talks </a> </br>
-    			<a href="#Languages" class="menu-element">Languages</a> </br>
-    			<a href="#Projects" class="menu-element">Projects</a> </br>
-    			<a href="#lecture-notes" class="menu-element">Lecture Notes</a> </br>
-
-    	</div>
-		-->
-
-
-
-
 		</center>
 	  </div>
-
-
-
 
 
 	  <!-- Right column !-->
 	  <div class="column right">
 
 
-	  	<h3 id="about" class="title-body"> 💡~/About </h3>
+	  	<h3 id="about" class="text-2xl font-bold"> 💡~/About </h3>
 
-  		<div class="body-text">
+  		<div  class="body-text">
 		
-			You may download the latest version of my CV at this <a href="downloads/CV_Daniele_Gadler.pdf">link </a>
+			You may download the latest version of my CV at this <a class="a-url"  target="_blank" href="downloads/CV_Daniele_Gadler.pdf">link</a>.
 			
 			
 			</br> </br>
@@ -220,7 +196,8 @@
   		</div>
 
 
-	  	<h3 id="education" class="title-body"> 👨‍🎓~/Education </h3>
+
+	  	<h3 id="education" class="text-2xl font-bold"> 👨‍🎓~/Education </h3>
 
 
 	  	<ul>
@@ -232,21 +209,21 @@
 	  	</ul>
 
 
-	  	<h3 id="work-experience" class="title-body"> 🚀~/Work Experience </h3>
+	  	<h3 id="work-experience" class="text-2xl font-bold"> 🚀~/Work Experience </h3>
 
 	  	<ul>
 		
-		<li class="padded-element"> March 2021 - Now: <span class="bold">Data Scientist.</span> <a href="https://onelogic.de/">ONE LOGIC GmbH</a>. Frankfurt am Main, Germany. </br>
+		<li class="padded-element"> March 2021 - Now: <span class="bold">Data Scientist.</span> <a class="a-url" target="_blank" href="https://onelogic.de/">ONE LOGIC GmbH</a>. Frankfurt am Main, Germany. </br>
 			
-			<ul> 
+			<ul class="list-disc ul-format-custom"> 
 				<li> Supply chain optimization for a large German chemical company.
 
 			</ul>
 
-		<li class="padded-element"> October 2019 - January 2021: <span class="bold">Data Scientist.</span> <a href="https://onelogic.de/">SIAG - Südtiroler Informatik AG </a>. Bolzano, Italy. </br>
-			<ul> 
+		<li class="padded-element"> October 2019 - January 2021: <span class="bold">Data Scientist.</span> <a class="a-url" target="_blank" href="https://siag.de/">SIAG - Südtiroler Informatik AG </a>. Bolzano, Italy. </br>
+			<ul > 
 				<li> Business analysis, prototyping, project lead of Machine Learning projects carried out for the Autonomous Province of Bolzano in SAS, SAS Viya, Microsoft Azure, Python for:
-					<ul>
+					<ul class="list-disc ul-format-custom">
 						<li> Modelling severe COVID illness based on patients’ symptoms and COVID time series. </li>
 						<li> Predictive road traffic trends from IoT and weather data. </li>
 						<li> Predictive maintenance of South Tyrol's road infrastructure from Google Street View images. </li>
@@ -256,9 +233,9 @@
 	  			
 
 
-	  		<li class="padded-element"> March – October 2019: <span class="bold">Master's Thesis Research Fellow</span>. National Research Council (CNR), <a href="https://www.isti.cnr.it/en/">ISTI Institute </a>. Pisa, Italy. </br>	
+	  		<li class="padded-element"> March – October 2019: <span class="bold">Master's Thesis Research Fellow</span>. National Research Council (CNR), <a class="a-url" target="_blank" href="https://www.isti.cnr.it/en/">ISTI Institute </a>. Pisa, Italy. </br>	
 
-			<ul>
+			<ul class="list-disc ul-format-custom">
 	  			<li> Master's Thesis title: <i>"The Impact of Recurrent Neural Network Quantization on Federated Learning" </i>, proposing and implemented in PySyft and PyTorch 
 				a federated learning algorithm that reduces the amount of data transmitted from each client to the server up to 8.70x when training an RNN, while still maintaining a high model accuracy. 
 			</ul>
@@ -266,31 +243,31 @@
 	  	<li class="padded-element"> February - March; July – September 2018: <span class="bold"> Research Data Scientist</span>. Free University of Bolzano-Bozen. Faculty of Computer
 			Science. </br>
 			
-			<ul>
-				<li> Development of a <a href="https://github.com/DanyEle/hmm"> distributed and parallel tool</a> in R and Java Hadoop to model system usage of the ALMA observatory's log system via Hidden Markov Models. </li>
+			<ul class="list-disc ul-format-custom">
+				<li> Development of a <a class="a-url" target="_blank" href="https://github.com/DanyEle/hmm"> distributed and parallel tool</a> in R and Java Hadoop to model system usage of the ALMA observatory's log system via Hidden Markov Models. </li>
 				<li> Development of an automatized tool in R for the creation of Hidden Markov Models based on logs of developers’ interactions with the Visual Studio IDE. </li>
 			</ul>
 	
 
 		<li class="padded-element"> July 2017 – September 2017: <span class="bold"> Research Assistant </span> at the Technische Universität Kaiserslautern. Department of Computer Science. Distributed Computer Systems Groups. Kaiserslautern, Germany.  </br>
-			<ul>
+			<ul class="list-disc ul-format-custom">
 				<li> Theoretical and experimental study of state-of-the-art Wi-Fi devices' packet transmission fingerprinting techniques using physical-layer features. </li>
 			</ul>
 		<li class="padded-element"> April 2016 – September 2016: <span class="bold"> Tutor </span> for the “Advanced Programming” Course. Free University of Bolzano-Bozen. Faculty of Computer Science. </br> 
-			<ul>
+			<ul class="list-disc ul-format-custom">
 				<li> Support for students attending the “Advanced Programming” course in carrying out assignments, deepening course content and preparing for exams. Focus on advanced features of the “Java 8” programming language. </li>
 			</ul>
-		<li class="padded-element"> February – March 2016: <span class="bold"> Web Developer Intern </span> at <a href="https://www.mullenloweprofero.com/">Mullen Lowe Profero</a>. Beijing, China </br> 
-			<ul> 
+		<li class="padded-element"> February – March 2016: <span class="bold"> Web Developer Intern</span>. <a class="a-url" target="_blank" href="https://www.mullenloweprofero.com/">Mullen Lowe Profero</a>. Beijing, China </br> 
+			<ul class="list-disc ul-format-custom"> 
 				<li> Development of websites’ plugins, drafting and implementation of test plans and code. Organization of distributed websites’ migrations and code refactoring. </li>
 			</ul>
-		<li class="padded-element"> March – December 2015: <span class="bold"> Research Support </span>. Free University of Bolzano-Bozen. Faculty of Computer Science.  </br>
-			<ul>
+		<li class="padded-element"> March – December 2015: <span class="bold"> Research Support</span>. Free University of Bolzano-Bozen. Faculty of Computer Science.  </br>
+			<ul class="list-disc ul-format-custom">
 				<li> Development of a distributed cloud system for developing countries based on Raspberry-PI mini-computers. 
-				<li> Identification of issues and changes responsible for energy consumption in ART Android Virtual Machine. </li>
+				<li> Identification of issues and changes responsible for energy consumption in the ART Android Virtual Machine. </li>
 			</ul>
-		<li class="padded-element"> June 2014 – March 2015: <span class="bold"> Junior Programmer </span>, <a href="https://www.fsegames.eu/pages/index.html">Flying Squirrel Entertainment</a>. Eindhoven, Netherlands (remote) </br>
-			<ul>
+		<li class="padded-element"> June 2014 – March 2015: <span class="bold"> Junior Programmer</span>. <a class="a-url" target="_blank" href="https://www.fsegames.eu/pages/index.html">Flying Squirrel Entertainment</a>. Eindhoven, Netherlands (remote) </br>
+			<ul class="list-disc ul-format-custom">
 				<li> Part of the development team for the <i>Battle Cry of Freedom</i> videogame.  </li>
 			</ul>
 
@@ -299,7 +276,7 @@
 
 
 
-	  	<h3 id="awards" class="title-body"> 🏆~/Awards and Scholarships</h3>
+	  	<h3 id="awards-scholarships" class="text-2xl font-bold"> 🏆~/Awards and Scholarships</h3>
 
 	  	<ul>
 			
@@ -313,7 +290,7 @@
 
 	  	</ul>
 		
-		<h3 id="certificates" class="title-body"> 📄~/Habilitations and certificates </h3>
+		<h3 id="certificates" class="text-2xl font-bold"> 📄~/Habilitations and certificates </h3>
 
 		
 		<ul>
@@ -326,51 +303,42 @@
 
 
 
-	  	<h3 id="publications" class="title-body"> 📝~/Publications  <a href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img width=30 height=30 src="./imgs/google_scholar_icon.png"/> </a> </h3> 
+	  	<h3 id="publications" class="text-2xl font-bold"> 📝~/Publications  <a href="https://scholar.google.it/citations?user=QuBecg8AAAAJ&hl=en"><img width=30 height=30 src="./imgs/google_scholar_icon.png"/> </a> </h3> 
 
 	  	<ul>
 			
 			<li> 2021. <b>Neural Network Quantization in Federated Learning at the Edge</b>. <i>Information Sciences Journal, Elsevier. </i> October 2021. Volume 575, Pages 417-436.
-			<a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025521006307?dgcid=author">Link </a>
+			<a class="a-url" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0020025521006307?dgcid=author">Link </a>
 
 	  		<li> 2017. <b>Mining Logs to Model the Use of a System</b>.  <i>ACM/IEEE ESEM '17 </i>. International Symposium on Empirical
-Software Engineering and Measurement. Toronto, Canada. <a href="http://ieeexplore.ieee.org/document/8170120/?reload=true">Link </a>  </li>
+Software Engineering and Measurement. Toronto, Canada. <a class="a-url" target="_blank" href="http://ieeexplore.ieee.org/document/8170120/?reload=true">Link </a>  </li>
 			<li> 2016. <b>Bringing the Cloud to Rural and Remote Areas via Cloudlets </b>. <i>ACM DEV '16 </i>. Proceedings of the 7th Annual
-Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.org/doi/abs/10.1145/3001913.3001918"> Link </a> </li>
+Symposium on Computing for Development. Nairobi, Kenya. <a class="a-url" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3001913.3001918"> Link </a> </li>
 
 	  	</ul>
 		
-		<h3 id="talks" class="title-body"> 📢~/Talks   </a> </h3> 
+		<h3 id="talks" class="text-2xl font-bold"> 📢~/Talks   </a> </h3> 
 		
 	  	<ul>
 		
 		<li>18.11.2020. <b> PySyft - An Open-Source Framework for Privacy-Preserving Distributed Machine Learning. </b> Data Natives Conference.  Berlin, Germany.  
-			<a href="https://datanatives.io/community-content/pysyft-an-open-source-framework-for-privacy-preserving-distributed-machine-learning/"> Link  </a> </li>
+			<a class="a-url" target="_blank" href="https://datanatives.io/community-content/pysyft-an-open-source-framework-for-privacy-preserving-distributed-machine-learning/"> Link  </a> </li>
 		<li>13.11.2020. <b> PySyft - An Open-Source Framework for Privacy-Preserving Distributed Machine Learning. </b> South Tyrol Free Software Conference. Bolzano, Italy.  
-			<a href="https://www.sfscon.it/talks/pysyft-an-open-source-framework-for-privacy-preserving-distributed-machine-learning/"> Link  </a> </li>
+			<a class="a-url" target="_blank" href="https://www.sfscon.it/talks/pysyft-an-open-source-framework-for-privacy-preserving-distributed-machine-learning/"> Link  </a> </li>
 		<li>05.11.2020 <b> Parallel session on adoption challenges toward a European Cloud Federation enabling European Data Spaces </b>. European Big Data Value Forum 2020. Berlin, Germany. 
-			<a href="https://www.h-cloud.eu/event/european-big-data-value-forum/">Link </a>. 
-	  		
-			
-
+			<a class="a-url" target="_blank" href="https://www.h-cloud.eu/event/european-big-data-value-forum/">Link </a>. 		
 	  	</ul>
 
 
-	  	<h3 id="languages" class="title-body"> ㊗️~/Languages </h3>
-		 <img class="language-logo" src="imgs/italian_logo.png"/> <span class="language-level">  Native </span> </br>
-	  	 <img class="language-logo" src="imgs/english_logo.jpg"/> <span class="language-level">  Proficient - fluent </span> </br>
- 	  	 <img class="language-logo" src="imgs/german_logo.png"/> <span class="language-level">  Advanced - fluent</span> </br>
- 	  	 <img class="language-logo" src="imgs/chinese_logo.png"/> <span class="language-level">  Discrete </span> </br>
+	  	<h3 id="languages" class="text-2xl font-bold"> ㊗️~/Languages </h3>
+	</br>
+		<div class="flex items-end"><img class="language-logo" src="imgs/italian_logo.png"/> <span class="language-level">  Native </span> </br> </div>
+	  	 <div class="flex items-end" ><img class="language-logo" src="imgs/english_logo.jpg"/> <span class="language-level">  Proficient - fluent </span> </br> </div>
+ 	  	 <div class="flex items-end"><img class="language-logo" src="imgs/german_logo.png"/> <span class="language-level">  Advanced - fluent</span> </br> </div>
+ 	  	 <div class="flex items-end"><img class="language-logo" src="imgs/chinese_logo.png"/> <span class="language-level">  Discrete </span> </br> </div>
 
-
-	  
-
-
-
-
-
-	  	<h3 class="title-body" id="projects"> 💻 ~/Projects </h3>
-		
+	</br>
+	  	<h3 class="text-2xl font-bold" id="projects"> 💻 ~/Projects </h3>
 		
 		<!--
 			<div style="display:table">
@@ -692,70 +660,78 @@ Symposium on Computing for Development. Nairobi, Kenya. <a href="https://dl.acm.
 
 	  	</br> </br>
 
-	  	<h3 id="lecture-notes" class="title-body"> 💼 ~/Lecture Notes </h3>
+	  	<h3 id="lecture-notes" class="text-2xl font-bold"> 💼 ~/Lecture Notes </h3>
 
 	  	Lecture Notes taken in class during the Master's in Computer Science and Networking 2017-2019 in Pisa and during my Bachelor. All the material released is intended for didactic use only. 
 
-	  	<h2> Academic Year 2018-2019 </h2>
+	  	<h2 class="text-1xl font-bold"> Academic Year 2018-2019 </h2>
 
 	  	<ul>
 
-	  		<li class="lecture"> <b>Algorithm Engineering - UniPi</b>, Lecture notes based on the classes of Prof. Paolo Ferragina and Prof. Linda Pagli, along with exercises. </br>
-	  		  <a href="./lecture_notes/Algorithm_Engineering_Part_One_Daniele_Gadler.pdf">Part 1</a> (Chapters 1, 2, 3, 4, 5, 6, 7) 
-			  &nbsp; &nbsp;   <a href="./lecture_notes/Algorithm_Engineering_Part_Two_Daniele_Gadler.pdf">Part 2</a> (Chapters 8, 9, 10, 11, 12, 13, 14)</li> 
+	  		<li class="lecture"> <i>Algorithm Engineering - UniPi</i>, Lecture notes based on the classes of Prof. Paolo Ferragina and Prof. Linda Pagli, along with exercises. </br>
+	  		  <a class="a-url" target="_blank" href="./lecture_notes/Algorithm_Engineering_Part_One_Daniele_Gadler.pdf">Part 1</a> (Chapters 1, 2, 3, 4, 5, 6, 7) 
+			  &nbsp; &nbsp;   <a class="a-url" target="_blank" href="./lecture_notes/Algorithm_Engineering_Part_Two_Daniele_Gadler.pdf">Part 2</a> (Chapters 8, 9, 10, 11, 12, 13, 14)</li> 
 			  
-	  		<li class="lecture"> <b>Advanced Software Engineering - UniPi</b>, by Prof. Antonio Brogi and dott. Stefano Forti. </br>
-	  		 <a href="./lecture_notes/ASE_Daniele_Gadler_Theory.pdf"> Theory summary</a> 
-			 &nbsp; &nbsp;  <a href="https://github.com/DanyEle/BeepBeepPrimer"> Project code </a> </li> 
+	  		<li class="lecture"> <i>Advanced Software Engineering - UniPi</i>, by Prof. Antonio Brogi and dott. Stefano Forti. </br>
+	  		 <a class="a-url" target="_blank" href="./lecture_notes/ASE_Daniele_Gadler_Theory.pdf"> Theory summary</a> 
+			 &nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/BeepBeepPrimer"> Project code </a> </li> 
 			 
 
-	  		<li class="lecture"> <b>Wireless Networks of Embedded Systems - SSSUP </b> from the classes of Prof. Paolo Pagano and Dr. Claudio Salvadori </br>
-	  		<a href="./lecture_notes/WNES_Theory.pdf"> Theory</a> &nbsp; &nbsp; <a href="./lecture_notes/WNES_Lab.pdf">Lab</a>  &nbsp; &nbsp; <a href="https://github.com/DanyEle/SPADE">Project Code</a>   </li> 
+	  		<li class="lecture"> <i>Wireless Networks of Embedded Systems - SSSUP </i> from the classes of Prof. Paolo Pagano and Dr. Claudio Salvadori </br>
+	  		<a class="a-url" target="_blank" href="./lecture_notes/WNES_Theory.pdf"> Theory</a> &nbsp; &nbsp; <a class="a-url" target="_blank" href="./lecture_notes/WNES_Lab.pdf">Lab</a>  &nbsp; &nbsp; <a class="a-url" target="_blank" href="https://github.com/DanyEle/SPADE">Project Code</a>   </li> 
 			
-	  		<li class="lecture"> <b>Distributed Enabling Platform - UniPi </b> by Dr. Nicola Tonellotto</br>
-	  		<a href="./lecture_notes/HMM_creation_in_Hadoop_Map_Reduce.pdf">Final project report </a> 
-			&nbsp; &nbsp; <a href="./lecture_notes/PAD_Proofs_Daniele_Gadler_2019.zip"> Proofs </a>
-			&nbsp; &nbsp;  <a href="https://github.com/DanyEle/Hadoop_HMM"> Project Code </a> </li> 
+	  		<li class="lecture"> <i>Distributed Enabling Platform - UniPi </i> by Dr. Nicola Tonellotto</br>
+	  		<a class="a-url" target="_blank" href="./lecture_notes/HMM_creation_in_Hadoop_Map_Reduce.pdf">Final project report </a> 
+			&nbsp; &nbsp; <a class="a-url" target="_blank" href="./lecture_notes/PAD_Proofs_Daniele_Gadler_2019.zip"> Proofs </a>
+			&nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/Hadoop_HMM"> Project Code </a> </li> 
 
 
-			<li class="lecture"> <b> Programming Tools for Parallel and Distributed Systems  - UniPi</b> by Dr. Massimo Coppola. </br>
-			<a href="./lecture_notes/SPD_Project_Report_Daniele_Gadler_5_0.pdf">Final project report </a> 
-			&nbsp; &nbsp;  <a href="https://github.com/DanyEle/SPD_19"> Exercises' code </a> 
-			&nbsp; &nbsp;  <a href="https://github.com/DanyEle/Sobel_Filter"> Project code </a> 
+			<li class="lecture"> <i> Programming Tools for Parallel and Distributed Systems  - UniPi</i> by Dr. Massimo Coppola. </br>
+			<a class="a-url" target="_blank" href="./lecture_notes/SPD_Project_Report_Daniele_Gadler_5_0.pdf">Final project report </a> 
+			&nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/SPD_19"> Exercises' code </a> 
+			&nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/Sobel_Filter"> Project code </a> 
 			</li> 
 
 				
-	  		<li class="lecture"> <b> Data Mining - UniPi </b> by Prof. Dino Pedreschi and Dr. Anna Monreale. </br>
-	  			<a href="./lecture_notes/ReportGroup1.pdf" > Final project report</a> 
-				&nbsp; &nbsp;  <a href="https://github.com/DanyEle/dm-group-1">Project code</a>   together with Gemma Martini, Maddalena Amendola, Riccardo Manetti. 
+	  		<li class="lecture"> <i> Data Mining - UniPi </i> by Prof. Dino Pedreschi and Dr. Anna Monreale. </br>
+	  			<a class="a-url" target="_blank" href="./lecture_notes/ReportGroup1.pdf" > Final project report</a> 
+				&nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/dm-group-1">Project code</a>   together with Gemma Martini, Maddalena Amendola, Riccardo Manetti. 
 			</li> 	  		
 
 	  	</ul>
 
-		  <h2> Academic Year 2017-2018 </h2>
+		  <h2 class="text-1xl font-bold"> Academic Year 2017-2018 </h2>
 
 		  <ul>
-		  	<li class="lecture"> <b>Teletraffic Engineering - UniPi</b>, Lecture notes based on the classes by Prof. Stefano Giordano  </br>  <a href="./lecture_notes/Teletraffic_Engineering_Theory_Daniele_Gadler.pdf">Theory</a>  </li>
-		  	<li class="lecture"> <b>Parallel and Distributed Systems - UniPi</b> by Prof. Marco Danelutto  </br> 
-			<a href="./lecture_notes/SPM_Project_Report.pdf" > Final project report</a> 	
-			&nbsp; &nbsp;  <a href="https://github.com/DanyEle/HMM">Project code</a> </li>
-		  	<li class="lecture"> <b>Stochastic Processes and Queueing Theory - SSSUP</b>, Lectures notes based on the classes and book by Prof. Giancarlo Prati  </br>  <a href="./lecture_notes/FSR_Daniele_Gadler_Part_One.pdf" >Theory part one</a> &nbsp; &nbsp;  <a href="./lecture_notes/FSR_Daniele_Gadler_Part_Two.pdf">Theory part two </a>  </li>
+		  	<li class="lecture"> <i>Teletraffic Engineering - UniPi</i>, Lecture notes based on the classes by Prof. Stefano Giordano  </br>  <a class="a-url" target="_blank" href="./lecture_notes/Teletraffic_Engineering_Theory_Daniele_Gadler.pdf">Theory</a>  </li>
+		  	<li class="lecture"> <i>Parallel and Distributed Systems - UniPi</i> by Prof. Marco Danelutto  </br> 
+			<a class="a-url" target="_blank" href="./lecture_notes/SPM_Project_Report.pdf" > Final project report</a> 	
+			&nbsp; &nbsp;  <a class="a-url" target="_blank" href="https://github.com/DanyEle/HMM">Project code</a> </li>
+		  	<li class="lecture"> <i>Stochastic Processes and Queueing Theory - SSSUP</i>, Lectures notes based on the classes and book by Prof. Giancarlo Prati  </br>  <a class="a-url" target="_blank" href="./lecture_notes/FSR_Daniele_Gadler_Part_One.pdf" >Theory part one</a> &nbsp; &nbsp;  <a class="a-url" target="_blank" href="./lecture_notes/FSR_Daniele_Gadler_Part_Two.pdf">Theory part two </a>  </li>
 
 		  </ul>
 
-  		  <h2> Academic Year 2016-2017 - Technische Universität Kaiserslautern </h2>
+  		  <h2 class="text-1xl font-bold"> Academic Year 2016-2017 - Technische Universität Kaiserslautern </h2>
 
 		  <ul>
-			<li class="lecture"> <b>Seminar for Embedded Systems and Computer Graphics</b> by Prof. Karsten Berns
-			</br>  <a href="./lecture_notes/A_Review_of_Object_Classification_Methods_for_Pedestrian_Detection.pdf">Survey</a> of state-of-the-art techniques for object classification in autonomous driving cars. </li>
+			<li class="lecture"> <i>Seminar for Embedded Systems and Computer Graphics</i> by Prof. Karsten Berns
+			</br>  <a class="a-url" target="_blank" href="./lecture_notes/A_Review_of_Object_Classification_Methods_for_Pedestrian_Detection.pdf">Survey</a> of state-of-the-art techniques for object classification in autonomous driving cars. </li>
 		  </ul>
 	  </div>
 	</div>
 
+	</br>
+
+	</br>
+
+	</br>
+
+	<hr>
+
 
 
 		<center>
-			<footer> Created by Daniele Gadler &copy 2019 - 2021. </footer>
+			<footer> Created by Daniele Gadler &copy 2019 - 2022. </br> Powered by <a class="a-url" target="_blank" href="https://tailwindcss.com/">Tailwind CSS </a> </footer>
 		</center>
 
 		<!-- <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script> !-->
