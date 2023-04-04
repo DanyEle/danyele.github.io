@@ -24,6 +24,10 @@
   width: 75%;
   min-width:1000px;
   padding-left:50px;
+  margin-right: 300px;
+  background-color: white;
+  margin-top: 300px;
+  opacity: 0.85;
 }
 
 
@@ -140,6 +144,19 @@
 .landing-page-title {
 	margin-top:15px;
 	margin-bottom: 10px;
+}
+
+body {
+	background-image: url("./imgs/mountain_background.JPG");
+	background-repeat: no-repeat;
+	background-color: #8498BF;	
+}
+
+.white-background {
+  background-color: white;
+  margin-left: 48px;
+  margin-right:48px;
+	
 }
 
 
