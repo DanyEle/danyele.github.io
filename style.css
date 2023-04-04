@@ -18,6 +18,9 @@
 .left {
   width: 25%;
   min-width:250px;
+  margin-left: 50px;
+  
+  
 }
 
 .right {
