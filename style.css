@@ -24,6 +24,7 @@
   width: 75%;
   min-width:1000px;
   padding-left:50px;
+  margin-left: 120px;
   margin-right: 300px;
   background-color: white;
   margin-top: 300px;
@@ -152,10 +153,9 @@ body {
 	background-color: #8498BF;	
 }
 
-.white-background {
+.white-background-header {
   background-color: white;
-  margin-left: 48px;
-  margin-right:48px;
+  width: 320px;
 	
 }
 
