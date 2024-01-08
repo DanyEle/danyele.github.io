@@ -41,8 +41,12 @@
 #personal-picture {
 	margin-top: 100px;
 	border-radius: 150px;
-	margin-left: 40px;
+	margin-left: 13px;
 	margin-bottom: 20px;
+}
+
+.black-border-tiny {
+	border: 1px solid black;
 }
 
 .social-logo-page {
@@ -146,12 +150,6 @@
 	padding-left:35px;
 }
 
-
-.landing-page-title {
-	margin-top:15px;
-	margin-bottom: 10px;
-}
-
 body {
 	background-image: url("./imgs/mountain_background.JPG");
 	background-repeat: no-repeat;
@@ -172,12 +170,32 @@ body {
 	padding-top: 30px;
 }
 
-.hr-black {
-	height:2px;
-	background-color: black;
-	color:black;
+#work-experience {
+	margin-top: 20px;
 }
+
 
 .sidebar-box-ele {
 	border: 1px solid black;
+}
+
+.container-black-bottom-line {
+	display: inline-block;
+  	padding-right: 10px; /* Make the line longer by this amount of pixels */
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid black;
+}
+
+.landing-page-title {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.job-bullet-points {
+	margin-left: 15px;
+}
+
+.job-date {
+	color:#5A5A5A;
 }
