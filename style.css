@@ -98,13 +98,6 @@
 	margin:10px;
 }
 
-.project-container {
-	border-style: solid;
-	border-color: #5F9EA0;
-	border-width: 2px;
-	min-height: 500px;
-	width: 400px;
-}
 
 .project-title {
 	font-size: 24px;
@@ -124,6 +117,16 @@
 .project-image-square{
 	height:190px;
 	width:190px;
+}
+
+.project-image-siag { 
+	height: 190px;
+	width: 260px;
+}
+
+.project-image-pharmaq {
+	height: 190px;
+	width: 295px;
 }
 
 .project-text {
@@ -198,4 +201,40 @@ body {
 
 .job-date {
 	color:#5A5A5A;
+}
+
+.project-container-large {
+	border-style: solid;
+	border-color: #5F9EA0;
+	border-width: 2px;
+	height: 700px;
+	width: 400px;
+	position: relative;
+
+}
+
+.project-container-small {
+	border-style: solid;
+	border-color: #5F9EA0;
+	border-width: 2px;
+	height: 600px;
+	width: 400px;
+	position: relative;
+
+}
+
+.project-image-container {
+	white-space: nowrap;
+	position: absolute;
+	width: 100%;
+	bottom: 25px; /* Aligns the div to the bottom */
+	display: flex;
+	justify-content: center;
+}
+.project-image-container a img{
+	display:inline-block;
+	display: inline-block; /* Displays images in a line */
+	max-width: 100%; /* Ensures images don't exceed container width */
+	height: auto; /* Maintains aspect ratio */
+
 }
