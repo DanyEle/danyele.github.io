@@ -170,17 +170,17 @@ body {
 }
 
 #about {
-	padding-top: 30px;
-}
-
-#work-experience {
-	margin-top: 20px;
+        padding-top: 30px;
 }
 
 
-.sidebar-box-ele {
-	border: 1px solid black;
+.section {
+        margin-bottom: 20px;
 }
+
+ .sidebar-box-ele {
+        border: 1px solid black;
+ }
 
 .container-black-bottom-line {
 	display: inline-block;
