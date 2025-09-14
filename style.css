@@ -233,9 +233,16 @@ body {
 	justify-content: center;
 }
 .project-image-container a img{
-	display:inline-block;
-	display: inline-block; /* Displays images in a line */
-	max-width: 100%; /* Ensures images don't exceed container width */
-	height: auto; /* Maintains aspect ratio */
+        display:inline-block;
+        display: inline-block; /* Displays images in a line */
+        max-width: 100%; /* Ensures images don't exceed container width */
+        height: auto; /* Maintains aspect ratio */
 
+}
+
+.section-box {
+        border: 1px solid black;
+        background-color: white;
+        margin-top: 30px;
+        padding: 20px;
 }
