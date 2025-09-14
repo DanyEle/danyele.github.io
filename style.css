@@ -29,9 +29,14 @@
   padding-left:50px;
   margin-left: 120px;
   margin-right: 200px;
-  background-color: white;
   margin-top: 300px;
   opacity: 1;
+}
+
+.section-bg {
+	  background-color: white;
+	  margin-bottom: 20px;
+	    padding-left:50px;
 }
 
 
