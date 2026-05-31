@@ -57,7 +57,7 @@
 	  	<center>
 
 
-	    	<img style="width: 230px; height: 230px;" class="black-border-tiny" id="personal-picture" alt="Personal Picture" src="imgs/personal_picture_2023.jpeg"/>
+			<img style="width: 230px; height: 230px;" class="black-border-tiny" id="personal-picture" alt="Personal Picture" src="imgs/2023_Daniele_Gadler.jpeg"/>
 			
 			<div class="white-background-header overflow-y-auto py-4 px-3 bg-white rounded black-border-tiny">
 
@@ -895,6 +895,90 @@ techniques with L1 physical-layer features in the networking stack. </li>
 		<center>
 			<footer class="footer black-border-tiny"> Created by Daniele Gadler &copy 2019 - 2025. </br> Powered by <a class="a-url" target="_blank" href="https://tailwindcss.com/">Tailwind CSS </a> </footer>
 		</center>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				const companyLogos = [
+					{ match: 'stada.com', src: 'imgs/stada_logo.png', alt: 'STADA Group logo', initials: 'STADA' },
+					{ match: 'onedata.de', src: 'imgs/one_data_logo.png', alt: 'One Data GmbH logo', initials: 'ONE' },
+					{ match: 'siag.it', src: 'imgs/siag_logo.png', alt: 'Suedtiroler Informatik AG logo', initials: 'SIAG' },
+					{ match: 'cnr.it', src: 'imgs/cnr_logo.png', alt: 'National Research Council logo', initials: 'CNR' },
+					{ match: 'unibz.it', src: 'imgs/unibz_logo.png', alt: 'Free University of Bolzano-Bozen logo', initials: 'UNIBZ' },
+					{ match: 'rptu.de', src: 'imgs/rptu_logo.png', alt: 'RPTU Kaiserslautern-Landau logo', initials: 'RPTU' },
+					{ match: 'mullenlowe.com', src: 'imgs/mullenlowe_logo.png', alt: 'MullenLowe logo', initials: 'ML' },
+					{ match: 'fsegames.eu', src: 'imgs/flying_squirrel_entertainment_logo.png', alt: 'Flying Squirrel Entertainment logo', initials: 'FSE' }
+				];
+
+				const workHeading = document.getElementById('work-experience');
+				const workSection = workHeading ? workHeading.closest('.section-bg') : null;
+				const workList = workSection ? workSection.querySelector(':scope > ul') : null;
+
+				if (workList) {
+					workList.classList.add('work-experience-list');
+
+					Array.from(workList.children).forEach(function (entry) {
+						if (!entry.matches('li.padded-element') || entry.classList.contains('work-entry')) {
+							return;
+						}
+
+						const companyLink = entry.querySelector('a.a-url[href]');
+						const href = companyLink ? companyLink.getAttribute('href') : '';
+						const logo = companyLogos.find(function (logoItem) {
+							return href.indexOf(logoItem.match) !== -1;
+						});
+
+						if (!logo) {
+							return;
+						}
+
+						const body = document.createElement('div');
+						body.className = 'work-entry-body';
+						while (entry.firstChild) {
+							body.appendChild(entry.firstChild);
+						}
+
+						Array.from(body.childNodes).forEach(function (node) {
+							if (node.nodeType === Node.TEXT_NODE) {
+								node.textContent = node.textContent.replace(/•\s*/g, '');
+							}
+						});
+
+						body.querySelectorAll('.job-bullet-points li').forEach(function (bullet) {
+							const firstNode = bullet.firstChild;
+							if (firstNode && firstNode.nodeType === Node.TEXT_NODE) {
+								firstNode.textContent = firstNode.textContent.replace(/^\s*-\s*/, '');
+							}
+						});
+
+						const logoLink = document.createElement(companyLink ? 'a' : 'div');
+						logoLink.className = 'company-logo-link';
+						logoLink.title = logo.alt;
+
+						if (companyLink) {
+							logoLink.href = href;
+							logoLink.target = '_blank';
+							logoLink.rel = 'noopener noreferrer';
+						}
+
+						const image = document.createElement('img');
+						image.className = 'company-logo';
+						image.alt = logo.alt;
+						image.loading = 'lazy';
+						image.decoding = 'async';
+						image.src = logo.src;
+						image.onerror = function () {
+							logoLink.classList.add('company-logo-fallback');
+							logoLink.textContent = logo.initials;
+						};
+
+						logoLink.appendChild(image);
+						entry.classList.add('work-entry');
+						entry.appendChild(logoLink);
+						entry.appendChild(body);
+					});
+				}
+			});
+		</script>
 
 		<!-- <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script> !-->
 
