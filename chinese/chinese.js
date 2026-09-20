@@ -47,7 +47,7 @@
       g("A 是 B", "A shì B", "Use 是 to identify people or things.", "我是学生。", "Wǒ shì xuésheng.", "I am a student.", "他 ___ 老师。", ["是", "在", "有", "和"], "是"),
       g("Possession with 的", "owner + de + noun", "Put 的 after the owner or modifier.", "这是我的书。", "Zhè shì wǒ de shū.", "This is my book.", "这是我 ___ 杯子。", ["的", "吗", "不", "都"], "的"),
       g("Yes-no questions", "statement + ma", "Add 吗 to a statement.", "你喜欢茶吗？", "Nǐ xǐhuan chá ma?", "Do you like tea?", "你是学生 ___？", ["吗", "的", "和", "个"], "吗")
-    ], r("我的一天", "我每天七点起床。我喝一杯水，吃一点儿饭。八点我去学校。我喜欢学习汉语，因为老师很好。晚上我看书，也听中文。", ["What time does the speaker get up?", "What does the speaker like studying?"]), l("在咖啡店", ["服务员：你好，你想喝什么？", "学生：我想喝茶。", "服务员：你也想吃饭吗？", "学生：不，我不饿。谢谢。"], ["The student wants tea.", "The student is hungry."], [true, false]), p("HSK1 car review", ["你好。今天我们复习简单但是重要的句子。", "我是学生。你是老师吗？", "我喜欢茶，也喜欢学习中文。"])),
+    ], r("我的一天", "我每天七点起床。我喝一杯水，吃一点儿饭。八点我去学校。我喜欢学习汉语，因为老师很好。晚上我看书，也听中文。", ["What time does the speaker get up?", "What does the speaker like studying?"]), l("在咖啡店", ["服务员：你好，你想喝什么？", "学生：我想喝茶。", "服务员：你也想吃饭吗？", "学生：不，我不饿。谢谢。"], ["The student wants tea.", "The student is hungry."], [true, false]), p("HSK1 car review", ["你好。欢迎来到今天的中文复习。先听一句，再跟着重复。", "我是学生。你是老师吗？", "我喜欢茶，也喜欢学习中文。", "现在请你回答：你喜欢喝什么？", "很好。每天花几分钟开口说中文，你会进步得更快。"])),
 
     "2": level("HSK 2", "Move into daily routines, travel, comparison, completed actions, and simple opinions.", [
       v("帮助", "bāngzhù", "to help; help", "verb/noun", "谢谢你的帮助。", "Xièxie nǐ de bāngzhù.", "Thank you for your help."),
@@ -74,7 +74,7 @@
       g("Completed action with 了", "verb + le", "Use 了 after a verb when an action is viewed as completed.", "我买了三本书。", "Wǒ mǎi le sān běn shū.", "I bought three books.", "他昨天去了北京 ___。", ["了", "吗", "得", "比"], "了"),
       g("Comparison with 比", "A + bǐ + B + adjective", "The compared item comes before 比.", "今天比昨天热。", "Jīntiān bǐ zuótiān rè.", "Today is hotter than yesterday.", "我 ___ 他高。", ["比", "从", "给", "吧"], "比"),
       g("Degree complement", "verb + de + adjective", "Use 得 to describe how an action is done.", "他说得很快。", "Tā shuō de hěn kuài.", "He speaks very fast.", "她唱歌唱 ___ 很好。", ["得", "了", "比", "在"], "得")
-    ], r("去机场", "明天早上我坐公共汽车去机场。机场离我家很远，所以我六点就出门。我的朋友从北京来，我要在机场等他。", ["Why does the speaker leave at six?", "Who is coming from Beijing?"]), l("问路", ["学生：请问，宾馆离这儿远吗？", "老师：不远。你坐公共汽车，十分钟就到。", "学生：谢谢。", "老师：不客气。"], ["The hotel is far away.", "The bus ride takes ten minutes."], [false, true]), p("HSK2 car review", ["今天练习三个高频语法点。", "今天比昨天热。", "我买了咖啡。", "他说得很慢。"])),
+    ], r("去机场", "明天早上我坐公共汽车去机场。机场离我家很远，所以我六点就出门。我的朋友从北京来，我要在机场等他。", ["Why does the speaker leave at six?", "Who is coming from Beijing?"]), l("问路", ["学生：请问，宾馆离这儿远吗？", "老师：不远。你坐公共汽车，十分钟就到。", "学生：谢谢。", "老师：不客气。"], ["The hotel is far away.", "The bus ride takes ten minutes."], [false, true]), p("HSK2 car review", ["今天练习三个高频语法点。先听整句，然后留意比字句。", "今天比昨天热。", "我买了咖啡，所以现在很高兴。", "他说得很慢，但是我都听懂了。", "请跟读最后一句，再用得说一句你自己的话。"])),
 
     "3": level("HSK 3", "Your current level: connect ideas, explain reasons, handle 把/被, and speak in longer turns.", [
       v("安静", "ānjìng", "quiet", "adjective", "请安静一点。", "Qǐng ānjìng yìdiǎn.", "Please be a little quieter."),
@@ -102,7 +102,7 @@
       g("被 passive", "object + bèi + doer + verb", "Use 被 when the subject receives the action.", "门被风关上了。", "Mén bèi fēng guān shàng le.", "The door was closed by the wind.", "自行车 ___ 他骑走了。", ["被", "把", "给", "从"], "被"),
       g("只要...就...", "as long as... then...", "只要 gives a sufficient condition.", "只要你努力，就会进步。", "Zhǐyào nǐ nǔlì, jiù huì jìnbù.", "As long as you work hard, you will improve.", "___ 有时间，我就复习。", ["只要", "虽然", "除了", "根据"], "只要"),
       g("越来越...", "more and more...", "Use 越来越 before an adjective or psychological verb.", "我的中文越来越好。", "Wǒ de Zhōngwén yuè lái yuè hǎo.", "My Chinese is getting better and better.", "天气 ___ 冷。", ["越来越", "为了", "除了", "终于"], "越来越")
-    ], r("学习计划", "最近我发现自己的听力比较弱。为了提高听力，我决定每天听二十分钟中文。除了听课文以外，我还听慢速播客。刚开始我听不懂很多句子，但是我不担心。只要每天练习，我的中文就会越来越好。", ["What skill is weak?", "What does the learner listen to besides textbook audio?", "What grammar pattern expresses confidence?"]), l("安排见面", ["王老师：你明天下午方便吗？", "学生：对不起，明天下午我要参加一个会议。", "王老师：那我们后天上午见面，怎么样？", "学生：可以。我会把作业带来。"], ["The student is free tomorrow afternoon.", "They decide to meet the morning after tomorrow.", "The student will bring homework."], [false, true, true]), p("HSK3 car review", ["今天的目标是把短句连成自然的表达。", "最近我比较忙，但是我每天都复习中文。", "我把手机放在包里。我把作业发给老师。", "只要每天听十分钟，你的听力就会进步。"])),
+    ], r("学习计划", "最近我发现自己的听力比较弱。为了提高听力，我决定每天听二十分钟中文。除了听课文以外，我还听慢速播客。刚开始我听不懂很多句子，但是我不担心。只要每天练习，我的中文就会越来越好。", ["What skill is weak?", "What does the learner listen to besides textbook audio?", "What grammar pattern expresses confidence?"]), l("安排见面", ["王老师：你明天下午方便吗？", "学生：对不起，明天下午我要参加一个会议。", "王老师：那我们后天上午见面，怎么样？", "学生：可以。我会把作业带来。"], ["The student is free tomorrow afternoon.", "They decide to meet the morning after tomorrow.", "The student will bring homework."], [false, true, true]), p("HSK3 car review", ["今天的目标是把短句连成自然的表达。听完以后，请复述关键词。", "最近我比较忙，但是我每天都复习中文。", "我把手机放在包里。我把作业发给老师。", "只要每天听十分钟，你的听力就会进步。", "现在想一想：你每天用什么方法复习？请用中文回答。"])),
 
     "4": level("HSK 4", "Upgrade into opinions, abstract topics, work, culture, and structured arguments.", [
       v("安排", "ānpái", "to arrange; arrangement", "verb/noun", "我已经安排好了会议。", "Wǒ yǐjīng ānpái hǎo le huìyì.", "I have already arranged the meeting."),
@@ -124,7 +124,7 @@
       g("虽然...但是...", "although... but...", "Use 虽然 for concession and 但是 for contrast.", "虽然很累，但是我还要学习。", "Suīrán hěn lèi, dànshì wǒ hái yào xuéxí.", "Although I am tired, I still need to study.", "___ 下雨，但是他还是来了。", ["虽然", "只有", "只要", "连"], "虽然"),
       g("不但...而且...", "not only... but also...", "Use it to add a stronger second point.", "她不但会说中文，而且会写汉字。", "Tā bùdàn huì shuō Zhōngwén, érqiě huì xiě Hànzì.", "She can not only speak Chinese but also write characters.", "他不但聪明，___ 很努力。", ["而且", "但是", "因为", "只有"], "而且"),
       g("无论...都...", "no matter... always...", "Use 无论 to generalize across conditions.", "无论多忙，我都学习中文。", "Wúlùn duō máng, wǒ dōu xuéxí Zhōngwén.", "No matter how busy I am, I study Chinese.", "___ 天气怎么样，我都去。", ["无论", "由于", "按照", "因此"], "无论")
-    ], r("为什么要坚持", "学习语言最重要的不是方法有多复杂，而是能不能长期坚持。很多人刚开始非常有兴趣，可是遇到困难以后就放弃了。我的建议是：每天安排一个小任务，按时完成。这样压力不大，不过效果很好。", ["What matters most in language learning?", "What causes many people to give up?", "What is the proposed method?"]), l("工作安排", ["经理：这个项目你负责，可以吗？", "员工：可以，不过我需要更多材料。", "经理：没问题。我今天下午把材料发给你。", "员工：好的，我保证按时完成。"], ["The employee refuses the project.", "The employee needs more materials.", "The manager will send materials this afternoon."], [false, true, true]), p("HSK4 car review", ["今天练习表达观点。", "我认为学习语言最重要的是坚持。", "虽然工作很忙，但是每天听十分钟也有帮助。", "不要追求完美，先保证按时完成小任务。"])),
+    ], r("为什么要坚持", "学习语言最重要的不是方法有多复杂，而是能不能长期坚持。很多人刚开始非常有兴趣，可是遇到困难以后就放弃了。我的建议是：每天安排一个小任务，按时完成。这样压力不大，不过效果很好。", ["What matters most in language learning?", "What causes many people to give up?", "What is the proposed method?"]), l("工作安排", ["经理：这个项目你负责，可以吗？", "员工：可以，不过我需要更多材料。", "经理：没问题。我今天下午把材料发给你。", "员工：好的，我保证按时完成。"], ["The employee refuses the project.", "The employee needs more materials.", "The manager will send materials this afternoon."], [false, true, true]), p("HSK4 car review", ["今天练习表达观点。第一次先听大意，第二次留意连接词。", "我认为学习语言最重要的是坚持。", "虽然工作很忙，但是每天听十分钟也有帮助。", "不要追求完美，先保证按时完成小任务。", "请用虽然和但是，说一句和你生活有关的话。"])),
 
     "5": level("HSK 5", "Stretch into advanced reading, nuance, abstract discussion, and fast listening.", [
       v("爱惜", "àixī", "to treasure; use sparingly", "verb", "年轻人也要爱惜时间。", "Niánqīng rén yě yào àixī shíjiān.", "Young people should treasure time."),
@@ -146,7 +146,7 @@
       g("之所以...是因为...", "the reason why... is because...", "Use it to explain causes formally.", "他之所以进步快，是因为每天练习。", "Tā zhī suǒyǐ jìnbù kuài, shì yīnwèi měitiān liànxí.", "The reason he improves quickly is that he practices every day.", "他 ___ 成功，是因为坚持。", ["之所以", "不见得", "毕竟", "不断"], "之所以"),
       g("与其...不如...", "rather than... better to...", "Use it to compare choices and recommend the second.", "与其担心，不如马上开始。", "Yǔqí dānxīn, bùrú mǎshàng kāishǐ.", "Rather than worrying, it is better to start now.", "___ 等机会，不如创造机会。", ["与其", "由于", "即使", "一旦"], "与其"),
       g("即使...也...", "even if... still...", "Use 即使 for hypothetical concession.", "即使很忙，我也会复习。", "Jíshǐ hěn máng, wǒ yě huì fùxí.", "Even if I am busy, I will review.", "___ 失败了，也不要放弃。", ["即使", "因此", "凡是", "至于"], "即使")
-    ], r("有效学习", "成年人学习语言时，时间往往很有限。因此，与其追求一次学很久，不如保持稳定的节奏。经验表明，短时间、高频率的练习更容易坚持。即使每天只有十五分钟，只要方法正确，也能不断进步。", ["Why is a stable rhythm useful?", "Which structure compares two choices?", "What makes progress possible despite limited time?"]), l("学习方法讨论", ["甲：我背了很多单词，可是说话时还是想不起来。", "乙：只背单词不够。你需要把词放进句子里练。", "甲：也就是说，要在真实语境里使用。", "乙：对。这样不仅记得牢，还能提高表达能力。"], ["Memorizing words alone is enough.", "Words should be practiced in sentences.", "Context helps expression ability."], [false, true, true]), p("HSK5 car review", ["今天我们练习高级表达。", "与其说我没有时间，不如说我没有安排好优先级。", "学习之所以有效，是因为输入、复习和输出互相配合。", "即使每天只有十五分钟，只要不断练习，也会看到变化。"]))
+    ], r("有效学习", "成年人学习语言时，时间往往很有限。因此，与其追求一次学很久，不如保持稳定的节奏。经验表明，短时间、高频率的练习更容易坚持。即使每天只有十五分钟，只要方法正确，也能不断进步。", ["Why is a stable rhythm useful?", "Which structure compares two choices?", "What makes progress possible despite limited time?"]), l("学习方法讨论", ["甲：我背了很多单词，可是说话时还是想不起来。", "乙：只背单词不够。你需要把词放进句子里练。", "甲：也就是说，要在真实语境里使用。", "乙：对。这样不仅记得牢，还能提高表达能力。"], ["Memorizing words alone is enough.", "Words should be practiced in sentences.", "Context helps expression ability."], [false, true, true]), p("HSK5 car review", ["今天我们练习高级表达。第一遍关注观点，第二遍关注句型。", "与其说我没有时间，不如说我没有安排好优先级。", "学习之所以有效，是因为输入、复习和输出互相配合。", "即使每天只有十五分钟，只要不断练习，也会看到变化。", "现在请你用与其说和不如说，表达一个自己的选择。"] ))
   };
 
   hydrateVocabulary(DATA);
@@ -190,6 +190,10 @@
   let listeningAnswers = {};
   let placementAnswers = {};
   let memoryProgress = {};
+  let audioVoices = [];
+  let selectedVoiceName = "";
+  let podcastRate = 0.82;
+  let audioStatus = "Choose a voice, then play the episode.";
 
   renderLayout();
   renderAll();
@@ -197,6 +201,10 @@
   app.addEventListener("input", onInput);
   app.addEventListener("change", onChange);
   app.addEventListener("keydown", onKeydown);
+  if ("speechSynthesis" in window) {
+    refreshAudioVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", refreshAudioVoices);
+  }
 
   function level(label, focus, vocabulary, grammar, reading, listening, podcast) {
     return { label, heading: "中文学习 · " + label, focus, vocabulary, grammar, reading, listening, podcast };
@@ -266,14 +274,14 @@
       '<header class="study-header"><div><p class="study-kicker">听 · 说 · 读 · 词汇 · 语法</p><h1 class="study-title">' + esc(data.heading) + '</h1><p class="study-subtitle">' + esc(data.focus) + '</p><p class="study-plan">' + esc(courseCount) + '. Study one 20-word lesson at a time, then revisit earlier lessons through the whole-level deck.</p><button class="tool-button primary session-button" type="button" data-action="start-session">Start new session</button></div><div class="hanzi-visual" aria-hidden="true"><span>学</span><span>听</span><span>读</span><span>说</span></div><div class="study-stats">' + stat("Known", "stat-known") + stat("Deck", "stat-deck") + stat("Quiz", "stat-quiz") + '</div></header>' +
       '<nav id="level-nav" class="level-nav"></nav>' +
       '<div class="study-grid">' +
-      panel("flashcard-title", "Flashcards", '<div class="panel-actions"><span class="session-progress" id="session-progress" aria-live="polite"></span><button class="small-button" type="button" data-action="reset-progress">Reset level</button></div>', '<div class="flashcard" id="flashcard" tabindex="0"><span class="card-hanzi" id="card-hanzi"></span><span class="card-pinyin" id="card-pinyin"></span><div class="card-meaning" id="card-meaning"></div><div class="card-example" id="card-example"></div></div><div class="tool-row"><button class="tool-button primary" type="button" data-action="flip-card">Flip</button><button class="tool-button" type="button" data-action="speak-current">Speak</button><button class="tool-button" type="button" data-action="prev-card">Previous</button><button class="tool-button" type="button" data-action="next-card">Next</button><button class="tool-button warn" id="toggle-known-current" type="button" data-action="toggle-known-current">Mark known</button></div><div class="known-state" id="known-state" aria-live="polite"></div>') +
+      panel("flashcard-title", "Flashcards", '<div class="panel-actions"><span class="session-progress" id="session-progress" aria-live="polite"></span><button class="small-button" type="button" data-action="reset-progress">Reset level</button></div>', '<div class="flashcard" id="flashcard" tabindex="0"><div class="card-face-meta"><span id="card-face-label">Recall</span><span id="card-order"></span></div><span class="card-hanzi" id="card-hanzi"></span><p class="card-prompt" id="card-prompt"></p><div class="card-reveal" id="card-reveal" aria-live="polite" hidden><div class="meaning-seal"><span class="seal-glyph" id="seal-glyph">义</span><span class="seal-type" id="card-class"></span></div><div class="card-translation"><span class="card-pinyin" id="card-pinyin"></span><div class="card-meaning" id="card-meaning"></div></div></div><div class="card-example" id="card-example"></div></div><div class="tool-row"><button class="tool-button primary" id="flip-card" type="button" data-action="flip-card">Reveal</button><button class="tool-button" type="button" data-action="speak-current">Speak</button><button class="tool-button" type="button" data-action="prev-card">Previous</button><button class="tool-button" type="button" data-action="next-card">Next</button><button class="tool-button warn" id="toggle-known-current" type="button" data-action="toggle-known-current">Mark known</button></div><div class="known-state" id="known-state" aria-live="polite"></div>') +
       panel("quiz-title", "Quick quiz", '<button class="small-button" type="button" data-action="next-quiz">New question</button>', '<div id="quiz-card" class="quiz-card"></div>') +
       panel("vocab-title", "Vocabulary", '<p class="panel-note" id="vocab-count" aria-live="polite"></p>', '<div class="vocab-controls"><input id="vocab-search" class="search-input" type="search" placeholder="Search Hanzi, pinyin, English" autocomplete="off"><select id="lesson-filter" class="select-input" aria-label="Lesson"></select><select id="type-filter" class="select-input" aria-label="Part of speech"></select></div><div id="vocab-list" class="vocab-list"></div><div id="vocab-pager" class="vocab-pager" aria-label="Vocabulary pages"></div>') +
       panel("grammar-title", "Grammar", '<p class="panel-note">' + data.grammar.length + " patterns</p>", '<div id="grammar-list" class="grammar-list"></div>') +
       panel("reading-title", "Reading comprehension", '<button class="small-button" type="button" data-action="speak-reading">Read aloud</button>', '<div id="reading-card"></div>') +
       panel("listening-title", "Listening comprehension", '<button class="small-button" type="button" data-action="speak-listening">Play dialogue</button>', '<div id="listening-card"></div>') +
       panel("level-test-title", "Current level test", '<button class="small-button" type="button" data-action="reset-placement">Reset test</button>', '<div id="placement-card"></div>') +
-      panel("podcast-title", "Car podcasts", '<button class="small-button" type="button" data-action="play-podcast">Play episode</button>', '<div id="podcast-card"></div>') +
+      panel("podcast-title", "Listening studio", '<button class="small-button" type="button" data-action="play-podcast">Play episode</button>', '<div id="podcast-card"></div>') +
       '</div><footer class="study-footer"><p class="source-note">Vocabulary source: HSK 2.0 lists adapted from an MIT-licensed dataset. See <a href="' + esc(basePath + '/CREDITS.md') + '">course credits</a>. The current HSK examination syllabus may differ.</p></footer>';
   }
 
@@ -315,15 +323,37 @@
 
   function renderCard() {
     const entry = data.vocabulary[currentIndex];
+    const reveal = document.getElementById("card-reveal");
+    reveal.hidden = !flipped;
+    document.getElementById("flashcard").classList.toggle("is-flipped", flipped);
     setText("card-hanzi", entry.hanzi);
-    setText("card-pinyin", flipped ? entry.pinyin : "");
-    setText("card-meaning", flipped ? entry.english : "Recall the pinyin, meaning, and one sentence before flipping.");
+    setText("card-face-label", flipped ? "Meaning" : "Recall");
+    setText("flip-card", flipped ? "Hide answer" : "Reveal");
+    setText("card-order", "Card " + (currentIndex + 1));
+    setText("card-prompt", flipped ? "Say it once more, then use it in a sentence." : "Say the pinyin and meaning aloud before revealing the answer.");
+    setText("card-pinyin", entry.pinyin);
+    setText("card-meaning", entry.english);
+    setText("seal-glyph", wordClassGlyph(entry.type));
+    setText("card-class", entry.type);
     document.getElementById("card-example").innerHTML = flipped ? exampleMarkup(entry) : "";
     const isKnown = currentKnownSet().has(entry.id);
     setText("known-state", isKnown ? "Known in this level" : "Needs review");
     setText("toggle-known-current", isKnown ? "Mark for review" : "Mark known");
     renderSession();
     renderStats();
+  }
+
+  function wordClassGlyph(type) {
+    const value = String(type).toLowerCase();
+    if (value.indexOf("verb") !== -1 || value.indexOf("modal") !== -1) return "动";
+    if (value.indexOf("noun") !== -1 || value.indexOf("place") !== -1) return "名";
+    if (value.indexOf("adjective") !== -1) return "形";
+    if (value.indexOf("adverb") !== -1) return "副";
+    if (value.indexOf("pronoun") !== -1 || value.indexOf("question") !== -1) return "代";
+    if (value.indexOf("preposition") !== -1) return "介";
+    if (value.indexOf("particle") !== -1) return "助";
+    if (value.indexOf("measure") !== -1) return "量";
+    return "词";
   }
 
   function renderSession() {
@@ -456,9 +486,12 @@
   }
 
   function renderPodcast() {
-    document.getElementById("podcast-card").innerHTML = '<article class="comprehension-card podcast-card"><h3>' + esc(data.podcast.title) + '</h3><p class="panel-note">Hands-free grammar and vocabulary review for driving.</p><ol>' + data.podcast.lines.map(function (line) {
+    const voiceOptions = audioVoices.length ? audioVoices.map(function (voice) {
+      return '<option value="' + esc(voice.name) + '"' + (voice.name === selectedVoiceName ? " selected" : "") + ">" + esc(voice.name) + "</option>";
+    }).join("") : '<option value="">System Mandarin voice</option>';
+    document.getElementById("podcast-card").innerHTML = '<article class="comprehension-card podcast-card"><div class="podcast-heading"><div><h3>' + esc(data.podcast.title) + '</h3><p class="panel-note">Listen, repeat, then answer the final prompt aloud.</p></div><div class="audio-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div></div><div class="podcast-controls"><label>Voice<select id="podcast-voice" class="select-input" aria-label="Mandarin voice">' + voiceOptions + '</select></label><label>Speed<select id="podcast-speed" class="select-input" aria-label="Playback speed"><option value="0.68"' + (podcastRate === 0.68 ? " selected" : "") + '>Slow</option><option value="0.82"' + (podcastRate === 0.82 ? " selected" : "") + '>Comfortable</option><option value="0.95"' + (podcastRate === 0.95 ? " selected" : "") + '>Natural</option></select></label></div><ol>' + data.podcast.lines.map(function (line) {
       return "<li>" + esc(line) + "</li>";
-    }).join("") + '</ol><div class="tool-row"><button class="tool-button" type="button" data-action="play-podcast-slow">Slow play</button><button class="tool-button" type="button" data-action="stop-audio">Stop</button></div></article>';
+    }).join("") + '</ol><div class="tool-row"><button class="tool-button primary" type="button" data-action="play-podcast">Play episode</button><button class="tool-button" type="button" data-action="play-podcast-slow">Slow review</button><button class="tool-button" type="button" data-action="repeat-podcast">Repeat final line</button><button class="tool-button" type="button" data-action="stop-audio">Stop</button></div><p class="audio-status" id="audio-status" aria-live="polite">' + esc(audioStatus) + "</p></article>";
   }
 
   function onClick(event) {
@@ -484,8 +517,9 @@
     if (action === "answer-listening") listeningAnswers[target.dataset.index] = target.dataset.choice === "true", renderListening();
     if (action === "answer-placement") placementAnswers[target.dataset.index] = target.dataset.choice, renderPlacement();
     if (action === "reset-placement") resetPlacement();
-    if (action === "play-podcast") speak(data.podcast.lines.join("。"), 0.78);
-    if (action === "play-podcast-slow") speak(data.podcast.lines.join("。"), 0.68);
+    if (action === "play-podcast") playPodcast(podcastRate);
+    if (action === "play-podcast-slow") playPodcast(0.68);
+    if (action === "repeat-podcast") speak(data.podcast.lines[data.podcast.lines.length - 1], 0.68, "Repeating the final prompt.");
     if (action === "stop-audio") stopAudio();
     if (action === "reset-progress") resetProgress();
   }
@@ -512,6 +546,16 @@
       renderCard();
       renderVocab();
       nextQuiz();
+    }
+    if (event.target.id === "podcast-voice") {
+      selectedVoiceName = event.target.value;
+      audioStatus = selectedVoiceName ? "Voice selected. Ready to play." : "Using the system Mandarin voice.";
+      renderPodcast();
+    }
+    if (event.target.id === "podcast-speed") {
+      podcastRate = Number(event.target.value);
+      audioStatus = "Speed updated. Ready to play.";
+      renderPodcast();
     }
   }
 
@@ -634,22 +678,62 @@
     }
   }
 
-  function speak(text, rate) {
+  function refreshAudioVoices() {
     if (!("speechSynthesis" in window)) return;
+    audioVoices = window.speechSynthesis.getVoices().filter(function (voice) {
+      const label = (voice.lang + " " + voice.name).toLowerCase();
+      return label.indexOf("zh") !== -1 || label.indexOf("chinese") !== -1 || label.indexOf("mandarin") !== -1;
+    }).sort(function (a, b) {
+      return voiceScore(a) - voiceScore(b);
+    });
+    if (!audioVoices.some(function (voice) { return voice.name === selectedVoiceName; })) {
+      selectedVoiceName = audioVoices.length ? audioVoices[0].name : "";
+    }
+    if (document.getElementById("podcast-card")) renderPodcast();
+  }
+
+  function voiceScore(voice) {
+    const label = (voice.lang + " " + voice.name).toLowerCase();
+    let score = label.indexOf("zh-cn") !== -1 ? 0 : 20;
+    if (label.indexOf("xiaoxiao") !== -1 || label.indexOf("xiaoyi") !== -1 || label.indexOf("tingting") !== -1 || label.indexOf("mei-jia") !== -1) score -= 10;
+    if (label.indexOf("microsoft") !== -1 || label.indexOf("apple") !== -1 || label.indexOf("google") !== -1) score -= 4;
+    return score;
+  }
+
+  function selectedVoice() {
+    return audioVoices.find(function (voice) { return voice.name === selectedVoiceName; }) || audioVoices[0];
+  }
+
+  function playPodcast(rate) {
+    const pace = rate === 0.68 ? "slow review" : "episode";
+    speak(data.podcast.lines.join("。"), rate, "Playing " + pace + ".");
+  }
+
+  function speak(text, rate, statusText) {
+    if (!("speechSynthesis" in window)) {
+      setAudioStatus("Speech is not available in this browser.");
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "zh-CN";
     utterance.rate = rate || 0.8;
-    const voice = window.speechSynthesis.getVoices().find(function (candidate) {
-      const label = (candidate.lang + " " + candidate.name).toLowerCase();
-      return label.indexOf("zh") !== -1 || label.indexOf("chinese") !== -1 || label.indexOf("mandarin") !== -1;
-    });
+    const voice = selectedVoice();
     if (voice) utterance.voice = voice;
+    utterance.onstart = function () { setAudioStatus(statusText || "Playing Mandarin audio."); };
+    utterance.onend = function () { setAudioStatus("Finished. Replay slowly or repeat the final line."); };
+    utterance.onerror = function () { setAudioStatus("Audio could not play. Try another installed Mandarin voice."); };
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
   }
 
   function stopAudio() {
     if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    setAudioStatus("Playback stopped.");
+  }
+
+  function setAudioStatus(message) {
+    audioStatus = message;
+    setText("audio-status", message);
   }
 
   function recommendation(score) {

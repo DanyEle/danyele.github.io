@@ -242,11 +242,22 @@
 .flashcard {
   display: grid;
   align-content: center;
-  min-height: 310px;
+  min-height: 340px;
   padding: 26px;
   border: 1px solid #dbe5e0;
   border-radius: 8px;
   background: linear-gradient(180deg, #fffaf0 0%, #ffffff 74%);
+}
+
+.card-face-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #80633c;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .card-hanzi {
@@ -256,6 +267,78 @@
   font-weight: 900;
   line-height: 1.1;
   text-align: center;
+}
+
+.card-prompt {
+  max-width: 38ch;
+  min-height: 48px;
+  margin: 18px auto 0;
+  color: #6c291c;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card-reveal {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  max-width: 560px;
+  width: 100%;
+  margin: 18px auto 0;
+  padding: 16px;
+  border: 1px solid #dfc78e;
+  border-radius: 8px;
+  background: #fff8e8;
+}
+
+.meaning-seal {
+  display: grid;
+  place-items: center;
+  width: 88px;
+  height: 88px;
+  padding: 8px;
+  border: 2px solid #c89533;
+  border-radius: 50%;
+  background: #9d211b;
+  box-shadow: inset 0 0 0 5px #f9e6ae;
+  color: #fff5db;
+  text-align: center;
+}
+
+.seal-glyph {
+  font-family: "Noto Serif SC", "Songti SC", SimSun, serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.seal-type {
+  margin-top: 3px;
+  font-size: 0.66rem;
+  font-weight: 900;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.card-translation {
+  min-width: 0;
+}
+
+.card-reveal .card-pinyin {
+  min-height: 0;
+  margin: 0;
+  font-size: 1.15rem;
+  text-align: left;
+}
+
+.card-reveal .card-meaning {
+  min-height: 0;
+  margin: 6px 0 0;
+  font-size: 1.28rem;
+  text-align: left;
 }
 
 .card-pinyin {
@@ -279,7 +362,7 @@
 }
 
 .card-example {
-  min-height: 84px;
+  min-height: 0;
   margin-top: 18px;
   padding-top: 16px;
   border-top: 1px solid #eadbc6;
@@ -393,7 +476,7 @@ button:disabled {
 .search-input,
 .select-input {
   width: 100%;
-  min-height: 42px;
+  min-height: 44px;
   padding: 8px 10px;
   border: 1px solid #cfdcd6;
   border-radius: 8px;
@@ -639,6 +722,64 @@ button:disabled {
   gap: 8px;
   margin: 12px 0 0;
   padding-left: 22px;
+}
+
+.podcast-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.audio-mark {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex: 0 0 auto;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #d5a54a;
+  border-radius: 8px;
+  background: #fff5dc;
+}
+
+.audio-mark span {
+  width: 4px;
+  border-radius: 4px;
+  background: #9d211b;
+}
+
+.audio-mark span:nth-child(1),
+.audio-mark span:nth-child(5) { height: 11px; }
+.audio-mark span:nth-child(2),
+.audio-mark span:nth-child(4) { height: 20px; }
+.audio-mark span:nth-child(3) { height: 28px; }
+
+.podcast-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(140px, 0.45fr);
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.podcast-controls label {
+  display: grid;
+  gap: 5px;
+  color: #80633c;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.podcast-controls .select-input {
+  min-width: 0;
+}
+
+.audio-status {
+  min-height: 24px;
+  margin: 12px 0 0;
+  color: #80633c;
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 
 .podcast-card li {
@@ -1027,6 +1168,38 @@ body::before {
 
   .card-hanzi {
     font-size: 3.25rem;
+  }
+
+  .flashcard {
+    min-height: 320px;
+    padding: 20px 16px;
+  }
+
+  .card-reveal {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .meaning-seal {
+    width: 72px;
+    height: 72px;
+  }
+
+  .seal-glyph {
+    font-size: 1.65rem;
+  }
+
+  .card-reveal .card-meaning {
+    font-size: 1.08rem;
+  }
+
+  .podcast-heading {
+    gap: 10px;
+  }
+
+  .podcast-controls {
+    grid-template-columns: 1fr;
   }
 
   .vocab-list {
